@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../Assets/Logos.svg";
+import Logo from "../assets/Logos.svg";
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
@@ -43,7 +43,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav-logo-container">
-        <img src={Logo} alt="" />
+        <img src={Logo} />
       </div>
       <div className="navbar-links-container">
         <a href="">Home</a>
